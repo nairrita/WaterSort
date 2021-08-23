@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Water Sort Puzzle Game
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="test-tube" id="one">    
+        </div>
+        <p class="number">1</p>
+
+        <div class="test-tube" id="two">
+        </div>
+        <p class="number">2</p>
+
+        <div class="test-tube" id="three">
+        </div>
+        <p class="number">3</p>
+
+        <div class="test-tube" id="four">
+        </div>
+        <p class="number">4</p>
+
+        <div class="test-tube" id="five">
+        </div>
+        <p class="number">5</p>
+
+        <div class="test-tube" id="six">
+        </div>
+        <p class="number">6</p>
+
+        <div class="test-tube-sec" id="seven">
+        </div>
+        <p class="number">7</p>
+
+        <div class="test-tube-sec" id="eight">
+        </div>
+        <p class="number">8</p>
+
+        <div class="test-tube-sec" id="nine">
+        </div>
+        <p class="number">9</p>
+
+        <div class="test-tube-sec" id="ten">
+        </div>
+        <p class="number">10</p>
+
+        <div class="test-tube-sec" id="eleven">
+        </div>
+        <p class="number">11</p>
+
+        <div class="test-tube-sec" id="twelve">
+        </div>
+        <p class="number">12</p>
+
+    </div>
+    
+    <div class="input-container">
+        <label for="transfer-mode" >Select type of transfer: </label>
+        <select name="transfer-mode" id="transfer-mode">
+            <option value="Transfer">Transfer</option>
+            <option value="Half transfer">Half transfer</option>
+            <option value="Empty">Empty</option>
+        </select>
+        <br><br>
+        <label for="tt-one">Enter the number of first Test tube: </label>
+        <input type="number" id="tt-one" name="tt-one" placeholder="Enter a number between 1 to 5"><br><br>
+        <label for="tt-two">Enter the number of second Test tube: </label>
+        <input type="number" id="tt-two" name="tt-two" placeholder="Enter a number between 1 to 5"><br><br>
+        <label for="poured-amount" id="poured-amount-label">Enter the amount of water to pour: </label>
+        <select name="poured-amount" id="poured-amount"> 
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+        </select>
+        <br><br>
+        <button type="button" id="tButton">Go</button>
+
+
+    </div>
+    <script src="tubeScript.js"></script>
+</body>
+
+</html>
